@@ -2,7 +2,7 @@
   "name": "limbo-extension",
   "displayName": "Limbo Language Support",
   "description": "A VSCode extension that provides syntax highlighting for the Limbo language",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "publisher": "lilbrocodes",
   "engines": {
     "vscode": "^1.80.0"
@@ -11,16 +11,16 @@
   "contributes": {
     "languages": [
       {
-        "id": "limbo-project",
-        "aliases": ["Limbo Project File", "limbo project file"],
+        "id": "limbo",
+        "aliases": ["Limbo Project", "limbo"],
         "extensions": [".lmproj"],
         "configuration": "./language-configuration.json"
       }
     ],
     "grammars": [
       {
-        "language": "limbo-project",
-        "scopeName": "source.lmproj",
+        "language": "limbo",
+        "scopeName": "source.limbo",
         "path": "./syntaxes/limbo.tmLanguage.json"
       }
     ]
