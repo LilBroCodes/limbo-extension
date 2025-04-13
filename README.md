@@ -2,7 +2,7 @@
 
 Adds syntax highlighting for **Limbo Project Configuration** (`.lmproj`) files in Visual Studio Code.
 
-![preview](https://github.com/user-attachments/assets/be3262a8-1120-476e-943f-d33dcefb9ba2)
+![preview](https://github.com/user-attachments/assets/77f657ca-83f4-41ac-9926-dd90808d2316)
 
 ## 📦 Features
 
